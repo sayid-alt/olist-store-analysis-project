@@ -78,6 +78,7 @@ def create_rfm_df(df):
     return rfm_df
 
 
+# ----------------------------------- main code ------------------------------------------
 # load dataset
 all_df = pd.read_csv('all_data.csv')
 
