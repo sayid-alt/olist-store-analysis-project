@@ -17,8 +17,6 @@ def create_daily_orders_df(df):
         'price': 'sum'
     }).reset_index()
 
-    print(daily_orders_df)
-
     daily_orders_df.rename(columns={
         'order_purchase_timestamp': 'date',
         'order_id': 'order_count',
@@ -80,7 +78,7 @@ def create_rfm_df(df):
 
 # ----------------------------------- main code ------------------------------------------
 # load dataset
-all_df = pd.read_csv('all_data.csv')
+all_df = pd.read_csv('./data/all_data.csv')
 
 # initialize the datetime column
 datetime_columns = ['order_purchase_timestamp', 'order_approved_at',
