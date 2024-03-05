@@ -16,6 +16,6 @@ cd ./dashboard
 
 run script below
 ```
-streamlit run ./dashboard/dashboard.py
+streamlit run dashboard.py
 ```
 
