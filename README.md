@@ -4,7 +4,7 @@
 ```
 pip -m venv env
 source env/bin/activate
-pip install numpy pandas matplotlib seaborn streamlit babel
+pip install -r requirements.txt
 ```
 
 ## Run steamlit app
